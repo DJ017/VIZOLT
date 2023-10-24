@@ -1,0 +1,193 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.d-flex{
+    display: flex;
+}
+.space-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+ul{
+    list-style: none;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+
+/* =======================top-headercss ============*/
+.top-header{
+    background-color: #26ACE3;
+    width: 100%;
+    color: #FFF;
+    padding: 15PX 0PX;
+    font-size: 14PX;
+}
+.loction{
+    width: 45%;
+}
+
+.address>i{
+    font-size: 18px;
+    margin-right: 15px;
+}
+.email>i{
+    font-size: 18px;
+    margin-right: 15px;
+}
+.social-icons{
+    font-size: 18px;
+}
+.social-icons>i{
+    margin: 0px 10px;
+}
+/* =======================top-header end ===============*/
+/* ====================CONTACT-HEADER START======== */
+.working-icon,
+.phone-icon{
+color: #26ACE3;
+font-size: 25px;
+margin: 0px 20px;
+}
+.deatils>.title{
+    font-size: 14px;
+    font-weight: 600;
+}
+.contact-header>.container{
+    height: 100px;
+    padding: 70px 0px;
+}
+.contact{
+    width: 50%;
+}
+.quote-btn>button{
+    
+    background-color: #26ACE3;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+.line{
+    padding: 0% !important;
+    height: 10px !important;
+}
+/* //////////////////////nav-bar start================== */
+.nav-bar>ul>li{
+    text-transform: uppercase;
+    padding: 10px 30px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #424242;
+}
+.first-li{
+    padding-left: 0% !important;
+    position: relative;
+}
+.second-li{
+    padding-left: 0% !important;
+    position: relative;
+}
+.third-li{
+    padding-left: 0% !important;
+    position: relative;
+}
+.fourth-li{
+    padding-left: 0% !important;
+    position: relative;
+}
+.five-li{
+    padding-left: 0% !important;
+    position: relative;
+}
+.six-li{
+    padding-left: 0% !important;
+    position: relative;
+}
+
+.nav-bar>ul>li:hover{
+    color: #26ACE3;
+    cursor: pointer;
+}
+
+.sub-menu{
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    background-color: aliceblue;
+    width: 150px;
+    display: none;
+    
+}
+.first-li:hover .sub-menu{
+    display: block;
+}
+.second-li:hover .sub-menu{
+    display: block;
+}
+.third-li:hover .sub-menu{
+    display: block;
+}
+.fourth-li:hover .sub-menu{
+    display: block;
+}
+.five-li:hover .sub-menu{
+    display: block;
+}
+.six-li:hover .sub-menu{
+    display: block;
+}
+/* <!--============nav header end================ --> */
+/* <!-- =================carousel start========= --> */
+.carousel{
+    position: relative;
+}
+.caption{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    color:#FFF ;
+    width: 60%;
+}
+.silder-main-desc{
+    font-size: 35px;
+    font-weight: 400;
+}
+.line-slider{
+    background-color: #f2b604;
+    width: 140px;
+    height: 3px;
+    margin: 10px 0px;
+}
+.silder-head{
+   font-size: 45px;
+   margin: 20px 0px;
+}
+.desc-silder{
+    font-size: 19px;
+    margin: 10px 0px;
+}
+
+.silder-btn{
+    height: 50px;
+    width: 180px;
+    color: #fff;
+    background-color: #26ACE3;
+    font-size: 14px;
+    border: none;
+    border-radius: 50px;
+    margin: 30px 0px;
+
+}
